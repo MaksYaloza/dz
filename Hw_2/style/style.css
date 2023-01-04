@@ -63,22 +63,19 @@ li {
 
 }
 
+.btn_container {
+    text-align: center;
+}
+
 .btn {
     background: #FF0000;
     border-radius: 4px;
     padding: 18px 43px;
     margin-top: 38px;
     margin-bottom: 82px;
-}
-
-.btn_container {
-    text-align: center;
-}
-
-.link_btn {
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 12px;
