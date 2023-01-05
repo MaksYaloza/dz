@@ -14,10 +14,54 @@ text-align: center;
 .link {
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #FF0000;
+    line-height: 27px;
+    color: #22262A;
+    margin-top: 27px;
 }
+
+.main_img{
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 745px;
+    width: 100%;
+    margin-bottom: 49px;
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.hero-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    margin-bottom: 18px;
+}
+.hero-title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    text-transform: uppercase;
+    color: #22262A;
+}
+.slogan {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 38px 31px;
+    text-transform: uppercase;
+    color: #22262A;
+    } */
+.img_1{
+    background-image: url(../images/2.png);
+    2
+}
+  
