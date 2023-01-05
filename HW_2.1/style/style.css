@@ -1,0 +1,23 @@
+ul, li{
+    list-style: none;
+}
+
+.item{
+    display: inline;
+    margin: 25px;
+}
+
+.nav_bar{
+text-align: center;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FF0000;
+}
