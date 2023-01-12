@@ -22,7 +22,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
     line-height: 94px;
-    text-align: center;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -64,15 +63,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: right;
-    height: 60px;
     width: 344px;
     height: 399px;
     border: 1px solid #000000;
 }
 .middle-link {
     display: flex;
-    align-items: c;
+    align-items: center;
     text-decoration: none;
     font-family: 'Roboto' sans-serif;
     color: #35444F;
