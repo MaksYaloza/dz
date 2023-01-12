@@ -31,38 +31,125 @@ body {
     margin-bottom: 40px;
 }
 
-.list {
+.main-list {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #35444F;
     height: 60px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .link {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    border-left: solid white;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-
-}
-
-.link_border{
+    font-family: 'Roboto' sans-serif;
     cursor: pointer;
     text-decoration: none;
     color: white;
     border-left: solid white;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    font-family: 'Roboto', sans-serif;
+    padding: 17px 32px;
     font-size: 24px;
+}
+
+.link_border{
     border-right: solid white;
+}
+
+.link:hover{
+    background-color:  #222F3A;
+    transition: 0.5s;
+}
+
+.middle-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    height: 60px;
+    width: 344px;
+    height: 399px;
+    border: 1px solid #000000;
+}
+.middle-link {
+    display: flex;
+    align-items: c;
+    text-decoration: none;
+    font-family: 'Roboto' sans-serif;
+    color: #35444F;
+    font-size: 27px;
+    line-height: 27px;
+    padding: 24.5px 44px 28px;  
+}
+
+.middle-link:hover{
+    background-color: #DBDBDB;
+    color: black;
+    padding-left: 60px;
+    transition: all 1s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 99px 54px 100px;
+}
+
+.ramda{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ramda-kozel{
+    border: 1px solid #000000;
+    margin-left: 52px;
+}
+
+.ramda-info-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #2C2C2C;
+    margin-top: 37px;
+    margin-left: 52px;
+}
+
+.ramda-image{
+    margin: 75px 268px 73px 297px;
+    
+}
+
+.down-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(99, 105, 110, 0.48);
+    height: 60px;
+    width: 100%;
+}
+
+.down-item{
+    margin-left: 40px;
+}
+
+.op{
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+
+.down-link{
+    font-family: 'Roboto' sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 17px 32px;
+}
+
+.down-link:hover{
+    color: #4BCAFF;
+    transition: 0.5s;
 }
